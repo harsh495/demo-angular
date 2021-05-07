@@ -7,11 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'favorite-comp-project';
-  post= {
-    isFavorite : true
-  }
 
-  onFavoriteChanged(isFavorite: boolean){
-    console.log("Favorite changed : ", isFavorite);
-  }
 }
